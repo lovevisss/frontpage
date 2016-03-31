@@ -8,6 +8,9 @@ a:hover {
 input {
   border: none; }
 
+.clear {
+  clear: both; }
+
 .centerarea {
   width: 70%;
   margin: 0 auto; }
@@ -40,7 +43,7 @@ input {
   height: 120px; }
 
 .main-logo {
-  height: 85px;
+  height: 95px;
   background: #1d7ad9; }
 
 .logo_img {
@@ -84,7 +87,7 @@ input {
   width: 145px;
   height: 35px;
   margin: 25px auto;
-  float: right;
+  float: left;
   background-color: #ff8c00; }
 
 .shopingcart a, .nav_list li a {
@@ -100,20 +103,38 @@ input {
 .shopNum {
   margin-left: 20px; }
 
-.shopclass {
-  color: #fff;
-  float: left; }
-
 .nav {
   background: #1369c0;
+  color: #fff;
   height: 35px; }
 
+.shopclass {
+  width: 130px;
+  float: left;
+  margin-left: 20px; }
+
+.shopclass span {
+  line-height: 35px;
+  text-align: center; }
+
+.shopclass_show {
+  background-color: #4593fd; }
+
+.shopclassitem a {
+  color: #fff; }
+
 .nav_list {
-  float: left; }
+  float: left;
+  margin-left: 50px; }
 
 .nav_list li {
-  float: left;
-  margin: 0 10px;
-  color: #fff; }
+  float: left; }
+
+.nav_list a {
+  line-height: 35px;
+  padding: 0 35px;
+  display: inline-block; }
+  .nav_list a:hover {
+    background-color: #4593fd; }
 
 /*# sourceMappingURL=style.css.map */

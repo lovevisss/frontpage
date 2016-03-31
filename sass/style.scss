@@ -1,6 +1,7 @@
 $red : #f00;
 $white : #fff;
 $logoblue: #1d7ad9;
+$lightblue: #4593fd;
 $darkblue: #1369c0;
 $yellow: #ff8c00;
 /*all*/
@@ -14,6 +15,10 @@ a:hover{
 
 input {
 	border:none;
+}
+
+.clear{
+	clear:both;
 }
 
 .centerarea{
@@ -56,7 +61,7 @@ input {
 
 
 .main-logo{
-	height: 85px;
+	height: 95px;
 	background:$logoblue;
 }
 
@@ -107,7 +112,7 @@ input {
 	width: 145px;
 	height: 35px;
 	margin: 25px auto;
-	float: right;
+	float: left;
 	background-color: $yellow;
 }
 
@@ -126,22 +131,48 @@ input {
 	margin-left: 20px;
 }
 
-.shopclass{
-	color: $white;
-	float: left;
-}
+
 
 .nav{
 	background: $darkblue;
+	color: $white;
 	height: 35px;
 }
 
+.shopclass{
+	width: 130px;
+	float: left;
+	margin-left: 20px;
+}
+
+.shopclass span{
+
+  line-height: 35px;
+  text-align: center;
+}
+
+.shopclass_show{
+	background-color: $lightblue;
+}
+
+.shopclassitem a{
+  color: $white;
+}
 .nav_list{
 	float: left;
+	margin-left: 50px;
 }
 
 .nav_list li{
 	float: left;
-	margin: 0 10px;
-	color: $white;
 }
+
+.nav_list a{
+	line-height: 35px;
+	padding: 0 35px;
+	display: inline-block;
+	&:hover{
+		background-color: $lightblue;
+	}
+}
+
